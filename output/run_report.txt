@@ -1,0 +1,9 @@
+协作流程耗时: 244.36秒
+模型使用报告:
+  - Researcher: deepseek-chat
+  - Questioner: deepseek-chat
+  - Coder: deepseek-coder
+  - BugFinder: deepseek-coder
+  - Fixer: deepseek-coder
+  - Verifier: deepseek-chat
+  - Writer: deepseek-chat

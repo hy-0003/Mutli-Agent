@@ -1,0 +1,4 @@
+autogen
+python-dotenv
+numpy
+matplotlib
