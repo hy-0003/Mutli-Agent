@@ -74,3 +74,80 @@ multi_agent_infection_research/
 ---
 
 © 2025 多智能体科研助手  | 精心打造 ✨ Happy Research-ing! 🥳
+
+
+# ✨ Multi-Agent Research Assistant ✨
+
+Welcome to the **Multi-Agent Research Assistant**! 🎉 This collaborative system powered by AutoGen and DeepSeek helps you complete research/homework projects efficiently!
+
+## 🚀 Core Features
+
+- 🎓 **Multi-Agent Collaboration**:
+  - Data Analyst: 🔍 Literature deep-dives & core knowledge organization
+  - Problem Proposer: ❓ Identifies compelling research questions
+  - Code Engineer: 💻 Auto-generates model code & visualizations
+  - Bug Identifier: 🐞 Detects hidden program flaws
+  - Fix Advisor: 🔧 Rapid debugging & complete code output
+  - Validation Tester: ✅ One-click model execution & evaluation
+  - Paper Writer: 📝 Generates Markdown-formatted reports
+- 🧪 **Model Simulation**:
+  - Automatic model construction with complete code
+  - Visualization of propagation curves (`output/seir_output.png`)
+- 📄 **Automated Paper Generation**:
+  - Standard structure: Introduction, Methods, Results, Discussion, Conclusion
+  - One-click generation of `output/report.md`
+- 📋 **Logging System**:
+  - Real-time conversation logging to `logs/round_<n>.log`
+  - Process review & reasoning analysis
+
+## 📂 Project Structure
+
+```bash
+multi_agent_infection_research/
+├── main.py               # Launches multi-agent system
+├── utils/
+│   └── logger.py         # Conversation & report logger
+├── output/
+│   ├── seir_output.png   # Propagation curve visualization
+│   └── report.md         # Auto-generated research paper
+├── logs/
+│   └── round_<n>.log     # Per-round conversation logs
+├── .env                  # Environment variables (OpenAI API Key)
+├── requirements.txt      # Dependency list
+└── README.md             # This documentation
+```
+
+## ⚡ Quick Start
+
+1. **Clone Repository**
+   
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Configure API Key**
+   Create `.env` in root directory:
+   ```env
+   OPENAI_API_KEY=your_OpenAI_API_KEY
+   ```
+4. **Run Program**
+   ```bash
+   python main.py
+   ```
+   ✍️ Enter your research topic (e.g. "Epidemic Modeling") and let the system work!
+
+## ✨ Student Assignment Workflow ✨
+
+| Step | Action & Output | Tips |
+|:---:|:----------------|:-----|
+| 1️⃣ Setup | Clone + Install + Configure API Key | ~5 minutes ⏱️ |
+| 2️⃣ Execute | `python main.py` | Research → Problem design → Model generation → Report writing - seamless workflow! 💨 |
+| 3️⃣ Get Results | - `output/report.md`<br>- `output/seir_output.png`<br>- `logs/` | Directly usable outputs ✂️ |
+| 4️⃣ Optional Polish | Edit Markdown<br>Convert to PDF:<br>```bash pandoc output/report.md -o final_report.pdf ``` | Professional formatting 🎓 |
+| 5️⃣ Submit | ✓ Final PDF report<br>✓ Visualization slides<br>✓ Short demo video | A+ guaranteed! 🏆 |
+
+> 💡 **Pro Tip**: Complete workflow in **1-2 hours** - proven efficiency!
+
+---
+
+© 2025 Multi-Agent Research Assistant | Crafted with care ✨ Happy Researching! 🥳
